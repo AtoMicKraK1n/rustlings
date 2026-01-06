@@ -1,16 +1,16 @@
 // Characters (`char`)
 
 fn main() {
-    // Note the _single_ quotes, these are different from the double quotes
-    // you've been seeing around.
-    let my_first_initial = 'C';
-    if my_first_initial.is_alphabetic() {
-        println!("Alphabetical!");
-    } else if my_first_initial.is_numeric() {
-        println!("Numerical!");
-    } else {
-        println!("Neither alphabetic nor numeric!");
-    }
+    // // Note the _single_ quotes, these are different from the double quotes
+    // // you've been seeing around.
+    // let my_first_initial = 'C';
+    // if my_first_initial.is_alphabetic() {
+    //     println!("Alphabetical!");
+    // } else if my_first_initial.is_numeric() {
+    //     println!("Numerical!");
+    // } else {
+    //     println!("Neither alphabetic nor numeric!");
+    // }
 
     // TODO: Analogous to the example before, declare a variable called `your_character`
     // below with your favorite character.
@@ -18,6 +18,7 @@ fn main() {
     // from a different language than your own, try an emoji 😉
     // let your_character = '';
 
+    let your_character = '2';
     if your_character.is_alphabetic() {
         println!("Alphabetical!");
     } else if your_character.is_numeric() {
